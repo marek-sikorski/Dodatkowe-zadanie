@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.navbar-default {
+  margin: 0; }
+
+.container-nav {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(http://www.freeimageslive.com/galleries/backdrops/wood/preview/wood00364.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar-header button {
+  margin-right: 30px;
+  margin-top: 20px; }
+
+.navbar-brand img {
+  padding-left: 40px; }
+
+#bs-example-navbar-collapse-1 {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; }
+  #bs-example-navbar-collapse-1 > ul > li {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px; }
+    #bs-example-navbar-collapse-1 > ul > li > a {
+      color: #fff; }
+      #bs-example-navbar-collapse-1 > ul > li > a:hover {
+        color: #ccc; }
+
+.text {
+  margin-top: 150px;
+  text-align: center; }
+  .text h1 {
+    color: #fff;
+    font-size: 42px;
+    font-family: "Arimo", sans-serif;
+    text-transform: uppercase; }
+  .text p {
+    color: #fff; }
+  .text button {
+    margin-bottom: 30px; }
+
+.container {
+  width: 70%; }
+
+.icons .col {
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px;
+  height: 250px; }
+  .icons .col h4 {
+    text-transform: uppercase;
+    padding: 10px; }
+  .icons .col p {
+    font-family: "Roboto", sans-serif;
+    padding: 10px; }
+
+.fa-icon {
+  font-size: 54px;
+  color: #ed6449; }
+
+.image, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8 {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-1 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/tools/preview/design_engineering.jpg); }
+
+.img-2 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/designarts/preview/sewing_machine_foot.jpg); }
+
+.img-3 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/energy/preview/power_adaptors.jpg); }
+
+.img-4 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/energy/preview/water_pipes.jpg); }
+
+.img-5 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/office/preview/magnifierjobsearch20010.jpg); }
+
+.img-6 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/office/preview/laptop_computer.jpg); }
+
+.img-7 {
+  background-image: url(http://www.freeimageslive.com/galleries/workplace/office/preview/03260042.jpg); }
+
+.img-8 {
+  background-image: url(http://www.freeimageslive.com/galleries/buildings/london/preview/coventgarden.jpg); }
+
+.col-x {
+  padding: 0;
+  min-height: 1px; }
+
+.layer {
+  padding: 90px;
+  text-align: center;
+  height: 250px; }
+  .layer p {
+    color: #ccc;
+    display: none; }
+
+.gallery .col-x:hover .layer {
+  background-color: rgba(244, 41, 41, 0.8); }
+
+.gallery .layer:hover p {
+  display: block; }
+
+.team {
+  margin: 60px 0;
+  text-align: left; }
+  .team img {
+    height: 180px;
+    width: 100%; }
+  .team p {
+    font-family: "Roboto", sans-serif; }
+
+.paragraph {
+  color: #ed6449; }
+
+.social-media {
+  margin-top: 30px; }
+
+.fa-sm {
+  font-size: 24px;
+  color: lightblue;
+  border: 1px solid lightblue;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  text-align: center; }
+
+.container-carousel {
+  width: 100%; }
+
+.photos {
+  margin: 40px 0; }
+
+.picture {
+  padding: 0; }
+  .picture img {
+    width: 100%;
+    height: 280px;
+    max-height: 280px; }
+
+.carousel {
+  padding: 0; }
+  .carousel img {
+    width: 100%;
+    height: 280px;
+    max-height: 280px; }
+
+.download {
+  margin: 80px 0;
+  text-align: center; }
+
+.btn-lg {
+  margin-top: 20px;
+  text-transform: uppercase;
+  border-radius: 0; }
+
+.footer {
+  background-color: #4A2C2C;
+  height: 250px; }
+
+.share,
+.location,
+.about {
+  text-align: center; }
+  .share h4,
+  .location h4,
+  .about h4 {
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 70px; }
+  .share p,
+  .location p,
+  .about p {
+    color: #ccc;
+    font-family: "Arimo", sans-serif; }
+
+.fa-ft {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 0 10px; }
+
+.bottom {
+  background-color: #562222;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  color: #ccc;
+  text-align: center; }
+  .bottom span {
+    color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
